@@ -1,0 +1,8 @@
+name: pTest7
+description: A sample Polymer application
+dependencies:
+  google_maps: any
+  polymer: any
+transformers:
+- polymer:
+    entry_points: web/ptest7.html

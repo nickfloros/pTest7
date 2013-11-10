@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sample app</title>
+    <link rel="stylesheet" href="ptest7.css">
+    <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <link rel="import" href="gmap.html">
+    <link rel="import" href="clickcounter.html">
+
+<scipt type="application/dart">
+
+</scipt>
+
+
+    <!-- import the click-counter -->
+    <script type="application/dart">export 'package:polymer/init.dart';</script>
+    <script src="packages/browser/dart.js"></script>
+    <script src="packages/browser/interop.js"></script>
+    
+  </head>
+  <body>
+    <h1>PTest7</h1>
+    
+    <p>Hello world from Dart!</p>
+    <gmap-map id='myMap'></gmap-map>    
+    <div id="sample_container_id">
+      <click-counter count="5"></click-counter>
+    </div>
+
+  </body>
+</html>

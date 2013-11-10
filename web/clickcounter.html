@@ -1,0 +1,18 @@
+<polymer-element name="click-counter" attributes="count">
+  <template>
+    <style>
+      button {
+        font-size: 24pt;
+        margin-bottom: 20px;
+      }
+    </style>
+    <div>
+      <button on-click="{{increment}}">Click me</button><br>
+      <span>(click count: {{count}})</span>
+      
+      <div id="map_canvas"></div>
+    </div>
+  </template>
+  <script type="application/dart" src="clickcounter.dart"></script>
+</polymer-element>
+
