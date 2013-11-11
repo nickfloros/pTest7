@@ -1,4 +1,5 @@
 import 'package:polymer/polymer.dart';
+import 'dart:html';
 
 /**
  * A Polymer click counter element.
@@ -13,6 +14,10 @@ class ClickCounter extends PolymerElement {
 
   void increment() {
     count++;
+  }
+  
+  void add() {
+    querySelector('#add-here').children.add(new Element.tag('my-element'));
   }
 }
 
