@@ -1,11 +1,13 @@
 import 'package:google_maps/google_maps.dart' as GoogleMaps;
 import 'package:polymer/polymer.dart';
+import 'dart:html';
 
 @CustomTag('gmap-map')
 class MapElement extends PolymerElement {
   GoogleMaps.GMap _map;
   
   MapElement.created() : super.created() {
+    print('${window.location.href}');
     final mapOptions = new GoogleMaps.MapOptions()
       ..mapTypeId = GoogleMaps.MapTypeId.ROADMAP
       ..center = new GoogleMaps.LatLng(-34.397, 150.644)
