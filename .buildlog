@@ -1,0 +1,526 @@
+---
+build.dart --machine --full
+
+build.dart finished [2745 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [2317 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.html
+
+build.dart finished [1335 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.html
+
+build.dart finished [1380 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.html
+
+build.dart finished [1305 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [1980 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.dart
+
+build.dart finished [1899 ms]
+
+---
+build.dart --machine --changed=web/ptest7.html
+
+build.dart finished [1910 ms]
+
+---
+build.dart --machine --changed=web/ptest7.html
+
+build.dart finished [1841 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.dart
+
+build.dart finished [1555 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.dart
+
+build.dart finished [1612 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.dart
+
+build.dart finished [1568 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.html
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected character after attribute value.","line":20,"charStart":460,"charEnd":481}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Invalid character in attribute name","line":20,"charStart":460,"charEnd":481}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected character after / in tag. Expected >","line":20,"charStart":460,"charEnd":483}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (template). Ignored.","line":22,"charStart":500,"charEnd":511}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (polymer-element). Ignored.","line":24,"charStart":580,"charEnd":598}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Expected closing tag. Unexpected end of file.","line":17,"charStart":334,"charEnd":348}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected character after attribute value.","line":20,"charStart":460,"charEnd":481}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Invalid character in attribute name","line":20,"charStart":460,"charEnd":481}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected character after / in tag. Expected >","line":20,"charStart":460,"charEnd":483}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (template). Ignored.","line":22,"charStart":500,"charEnd":511}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Unexpected end tag (polymer-element). Ignored.","line":24,"charStart":580,"charEnd":598}}]
+[{"method":"warning","params":{"file":"web/clickcounter.html","message":"Expected closing tag. Unexpected end of file.","line":17,"charStart":334,"charEnd":348}}]
+build.dart finished [1562 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.html
+
+build.dart finished [1557 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.html
+
+build.dart finished [1562 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.dart
+
+build.dart finished [1873 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.dart
+
+build.dart finished [1563 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.dart
+
+build.dart finished [1627 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.dart
+
+build.dart finished [1601 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.dart
+
+build.dart finished [1604 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.dart
+
+build.dart finished [1747 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.dart
+
+build.dart finished [1570 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.dart
+
+build.dart finished [1579 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.html
+
+build.dart finished [1550 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.html
+
+build.dart finished [1572 ms]
+
+---
+build.dart --machine --changed=web/ptest7.html
+
+build.dart finished [1571 ms]
+
+---
+build.dart --machine --changed=web/ptest7.html
+
+build.dart finished [1564 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.dart
+
+build.dart finished [1620 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.dart
+
+build.dart finished [1636 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.dart
+
+build.dart finished [1863 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.dart
+
+build.dart finished [1568 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.dart
+
+build.dart finished [1566 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.dart
+
+build.dart finished [1675 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.dart
+
+build.dart finished [1632 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.dart
+
+build.dart finished [1605 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.dart
+
+build.dart finished [1639 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.dart
+
+build.dart finished [1592 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.dart
+
+build.dart finished [1553 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.dart
+
+build.dart finished [1653 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.dart
+
+build.dart finished [2388 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.dart
+
+build.dart finished [1678 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.dart
+
+build.dart finished [1602 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.dart
+
+build.dart finished [1585 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.dart
+
+build.dart finished [1652 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.dart
+
+build.dart finished [1595 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.dart
+
+build.dart finished [1620 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.dart
+
+build.dart finished [1619 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.dart
+
+build.dart finished [1587 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.dart
+
+build.dart finished [1604 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.dart
+
+build.dart finished [1607 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.dart
+
+build.dart finished [1632 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.dart
+
+build.dart finished [1593 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.dart
+
+build.dart finished [1842 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.dart
+
+build.dart finished [1605 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.dart
+
+build.dart finished [1632 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.dart
+
+build.dart finished [1658 ms]
+
+---
+build.dart --machine --changed=web/ptest7.html
+
+build.dart finished [1954 ms]
+
+---
+build.dart --machine --changed=web/gmap.html
+
+build.dart finished [1701 ms]
+
+---
+build.dart --machine --changed=web/gmap.html
+
+build.dart finished [1581 ms]
+
+---
+build.dart --machine --changed=web/gmap.dart
+
+build.dart finished [1683 ms]
+
+---
+build.dart --machine --changed=web/gmap.dart
+
+build.dart finished [2033 ms]
+
+---
+build.dart --machine --changed=web/gmap.dart
+
+build.dart finished [1569 ms]
+
+---
+build.dart --machine --changed=web/gmap.dart
+
+build.dart finished [1730 ms]
+
+---
+build.dart --machine --changed=web/ptest7.html
+[{"method":"warning","params":{"file":"web/ptest7.html","message":"Unexpected end tag (head). Ignored.","line":22,"charStart":586,"charEnd":593}}]
+[{"method":"warning","params":{"file":"web/ptest7.html","message":"Unexpected start tag (body).","line":23,"charStart":596,"charEnd":602}}]
+build.dart finished [1617 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.html
+[{"method":"warning","params":{"file":"web/ptest7.html","message":"Unexpected end tag (head). Ignored.","line":22,"charStart":586,"charEnd":593}}]
+[{"method":"warning","params":{"file":"web/ptest7.html","message":"Unexpected start tag (body).","line":23,"charStart":596,"charEnd":602}}]
+build.dart finished [1558 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.dart
+[{"method":"warning","params":{"file":"web/ptest7.html","message":"Unexpected end tag (head). Ignored.","line":22,"charStart":586,"charEnd":593}}]
+[{"method":"warning","params":{"file":"web/ptest7.html","message":"Unexpected start tag (body).","line":23,"charStart":596,"charEnd":602}}]
+build.dart finished [1569 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.dart
+[{"method":"warning","params":{"file":"web/ptest7.html","message":"Unexpected end tag (head). Ignored.","line":22,"charStart":586,"charEnd":593}}]
+[{"method":"warning","params":{"file":"web/ptest7.html","message":"Unexpected start tag (body).","line":23,"charStart":596,"charEnd":602}}]
+build.dart finished [1721 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.dart
+[{"method":"warning","params":{"file":"web/ptest7.html","message":"Unexpected end tag (head). Ignored.","line":22,"charStart":586,"charEnd":593}}]
+[{"method":"warning","params":{"file":"web/ptest7.html","message":"Unexpected start tag (body).","line":23,"charStart":596,"charEnd":602}}]
+build.dart finished [1592 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.dart
+[{"method":"warning","params":{"file":"web/ptest7.html","message":"Unexpected end tag (head). Ignored.","line":22,"charStart":586,"charEnd":593}}]
+[{"method":"warning","params":{"file":"web/ptest7.html","message":"Unexpected start tag (body).","line":23,"charStart":596,"charEnd":602}}]
+build.dart finished [1581 ms]
+
+---
+build.dart --machine --changed=web/gmap.html
+[{"method":"warning","params":{"file":"web/ptest7.html","message":"Unexpected end tag (head). Ignored.","line":22,"charStart":586,"charEnd":593}}]
+[{"method":"warning","params":{"file":"web/ptest7.html","message":"Unexpected start tag (body).","line":23,"charStart":596,"charEnd":602}}]
+build.dart finished [2940 ms]
+
+---
+build.dart --machine --changed=web/ptest7.html
+[{"method":"warning","params":{"file":"web/ptest7.html","message":"Unexpected end tag (head). Ignored.","line":22,"charStart":586,"charEnd":593}}]
+[{"method":"warning","params":{"file":"web/ptest7.html","message":"Unexpected start tag (body).","line":23,"charStart":596,"charEnd":602}}]
+build.dart finished [1661 ms]
+
+---
+build.dart --machine --changed=web/gmap.dart
+[{"method":"warning","params":{"file":"web/ptest7.html","message":"Unexpected end tag (head). Ignored.","line":22,"charStart":586,"charEnd":593}}]
+[{"method":"warning","params":{"file":"web/ptest7.html","message":"Unexpected start tag (body).","line":23,"charStart":596,"charEnd":602}}]
+build.dart finished [1754 ms]
+
+---
+build.dart --machine --changed=web/gmap.dart
+[{"method":"warning","params":{"file":"web/ptest7.html","message":"Unexpected end tag (head). Ignored.","line":22,"charStart":586,"charEnd":593}}]
+[{"method":"warning","params":{"file":"web/ptest7.html","message":"Unexpected start tag (body).","line":23,"charStart":596,"charEnd":602}}]
+build.dart finished [2653 ms]
+
+---
+build.dart --machine --changed=web/gmap.dart
+[{"method":"warning","params":{"file":"web/ptest7.html","message":"Unexpected end tag (head). Ignored.","line":22,"charStart":586,"charEnd":593}}]
+[{"method":"warning","params":{"file":"web/ptest7.html","message":"Unexpected start tag (body).","line":23,"charStart":596,"charEnd":602}}]
+build.dart finished [1584 ms]
+
+---
+build.dart --machine --changed=web/gmap.dart
+[{"method":"warning","params":{"file":"web/ptest7.html","message":"Unexpected end tag (head). Ignored.","line":22,"charStart":586,"charEnd":593}}]
+[{"method":"warning","params":{"file":"web/ptest7.html","message":"Unexpected start tag (body).","line":23,"charStart":596,"charEnd":602}}]
+build.dart finished [1717 ms]
+
+---
+build.dart --machine --changed=web/gmap.dart
+[{"method":"warning","params":{"file":"web/ptest7.html","message":"Unexpected end tag (head). Ignored.","line":22,"charStart":586,"charEnd":593}}]
+[{"method":"warning","params":{"file":"web/ptest7.html","message":"Unexpected start tag (body).","line":23,"charStart":596,"charEnd":602}}]
+build.dart finished [1693 ms]
+
+---
+build.dart --machine --changed=web/gmap.dart
+[{"method":"warning","params":{"file":"web/ptest7.html","message":"Unexpected end tag (head). Ignored.","line":22,"charStart":586,"charEnd":593}}]
+[{"method":"warning","params":{"file":"web/ptest7.html","message":"Unexpected start tag (body).","line":23,"charStart":596,"charEnd":602}}]
+build.dart finished [1869 ms]
+
+---
+build.dart --machine --changed=web/gmap.dart
+[{"method":"warning","params":{"file":"web/ptest7.html","message":"Unexpected end tag (head). Ignored.","line":22,"charStart":586,"charEnd":593}}]
+[{"method":"warning","params":{"file":"web/ptest7.html","message":"Unexpected start tag (body).","line":23,"charStart":596,"charEnd":602}}]
+build.dart finished [1588 ms]
+
+---
+build.dart --machine --changed=web/gmap.dart
+[{"method":"warning","params":{"file":"web/ptest7.html","message":"Unexpected end tag (head). Ignored.","line":22,"charStart":586,"charEnd":593}}]
+[{"method":"warning","params":{"file":"web/ptest7.html","message":"Unexpected start tag (body).","line":23,"charStart":596,"charEnd":602}}]
+build.dart finished [1597 ms]
+
+---
+build.dart --machine --changed=web/gmap.dart
+[{"method":"warning","params":{"file":"web/ptest7.html","message":"Unexpected end tag (head). Ignored.","line":22,"charStart":586,"charEnd":593}}]
+[{"method":"warning","params":{"file":"web/ptest7.html","message":"Unexpected start tag (body).","line":23,"charStart":596,"charEnd":602}}]
+build.dart finished [1581 ms]
+
+---
+build.dart --machine --changed=web/gmap.dart
+[{"method":"warning","params":{"file":"web/ptest7.html","message":"Unexpected end tag (head). Ignored.","line":22,"charStart":586,"charEnd":593}}]
+[{"method":"warning","params":{"file":"web/ptest7.html","message":"Unexpected start tag (body).","line":23,"charStart":596,"charEnd":602}}]
+build.dart finished [1772 ms]
+
+---
+build.dart --machine --changed=web/gmap.dart
+[{"method":"warning","params":{"file":"web/ptest7.html","message":"Unexpected end tag (head). Ignored.","line":22,"charStart":586,"charEnd":593}}]
+[{"method":"warning","params":{"file":"web/ptest7.html","message":"Unexpected start tag (body).","line":23,"charStart":596,"charEnd":602}}]
+build.dart finished [1564 ms]
+
+---
+build.dart --machine --changed=README.md
+[{"method":"warning","params":{"file":"web/ptest7.html","message":"Unexpected end tag (head). Ignored.","line":22,"charStart":586,"charEnd":593}}]
+[{"method":"warning","params":{"file":"web/ptest7.html","message":"Unexpected start tag (body).","line":23,"charStart":596,"charEnd":602}}]
+build.dart finished [1552 ms]
+
+---
+build.dart --machine --changed=README.md
+[{"method":"warning","params":{"file":"web/ptest7.html","message":"Unexpected end tag (head). Ignored.","line":22,"charStart":586,"charEnd":593}}]
+[{"method":"warning","params":{"file":"web/ptest7.html","message":"Unexpected start tag (body).","line":23,"charStart":596,"charEnd":602}}]
+build.dart finished [1721 ms]
+
+---
+build.dart --machine --changed=web/gmap.dart
+[{"method":"warning","params":{"file":"web/ptest7.html","message":"Unexpected end tag (head). Ignored.","line":22,"charStart":586,"charEnd":593}}]
+[{"method":"warning","params":{"file":"web/ptest7.html","message":"Unexpected start tag (body).","line":23,"charStart":596,"charEnd":602}}]
+build.dart finished [1632 ms]
+
+---
+build.dart --machine --changed=web/gmap.dart
+[{"method":"warning","params":{"file":"web/ptest7.html","message":"Unexpected end tag (head). Ignored.","line":22,"charStart":586,"charEnd":593}}]
+[{"method":"warning","params":{"file":"web/ptest7.html","message":"Unexpected start tag (body).","line":23,"charStart":596,"charEnd":602}}]
+build.dart finished [1601 ms]
+
+---
+build.dart --machine --changed=build/clickcounter.html --changed=build/gmap.html --changed=build/ptest7.css --c...
+[{"method":"warning","params":{"file":"web/ptest7.html","message":"Unexpected end tag (head). Ignored.","line":22,"charStart":586,"charEnd":593}}]
+[{"method":"warning","params":{"file":"web/ptest7.html","message":"Unexpected start tag (body).","line":23,"charStart":596,"charEnd":602}}]
+build.dart finished [1927 ms]
+
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":"web/ptest7.html","message":"Unexpected end tag (head). Ignored.","line":22,"charStart":586,"charEnd":593}}]
+[{"method":"warning","params":{"file":"web/ptest7.html","message":"Unexpected start tag (body).","line":23,"charStart":596,"charEnd":602}}]
+build.dart finished [2946 ms]
+
+---
+build.dart --machine --changed=web/ptest7.html
+
+build.dart finished [1576 ms]
+
+---
+build.dart --machine --removed=build/clickcounter.html --removed=build/gmap.html --removed=build/ptest7.css --r...
+
+build.dart finished [2346 ms]
+
+---
+build.dart --machine --changed=build/ptest7.css --changed=build/ptest7.html --changed=build/ptest7.html_bootstr...
+
+build.dart finished [1694 ms]
+
+---
+build.dart --machine --changed=build/ptest7.css --changed=build/ptest7.html --changed=build/ptest7.html_bootstr...
+
+build.dart finished [3087 ms]
+
+---
+build.dart --machine --changed=web/ptest7.html
+
+build.dart finished [2526 ms]
+
+---
+build.dart --machine --changed=web/my_element.html
+
+build.dart finished [1659 ms]
+
+---
+build.dart --machine --changed=web/my_element.html
+
+build.dart finished [1590 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.dart
+
+build.dart finished [1642 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.dart
+
+build.dart finished [1575 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.dart
+
+build.dart finished [1563 ms]
+
