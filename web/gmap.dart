@@ -26,5 +26,7 @@ class MapElement extends PolymerElement {
   
   void _locationCallback(GoogleMaps.MouseEvent g){
     print('location callback ${g.latLng.lat}, ${g.latLng.lng}');
+    var pos = [g.latLng.lat,g.latLng.lng];
+    this.fire('mapClick',detail:pos);
   }
 }

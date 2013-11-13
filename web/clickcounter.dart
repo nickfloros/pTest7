@@ -7,11 +7,20 @@ import 'dart:html';
 @CustomTag('click-counter')
 class ClickCounter extends PolymerElement {
   @published int count = 0;
-  
-  ClickCounter.created() : super.created() {
-    
-  }
+  @published num lat = 0;
+  @published num lng = 0;
 
+  ClickCounter.created() : super.created() {
+    _init();
+  }
+  
+  void _init() {
+    window.on['mapClick'].listen((CustomEvent onData) {
+      print('map event');
+      lat=onData.detail[0];
+      lng = onData.detail[1];
+    });
+  }  
   void increment() {
     count++;
   }
