@@ -19,6 +19,7 @@ class ClickCounter extends PolymerElement {
       print('map event');
       lat=onData.detail[0];
       lng = onData.detail[1];
+      
     });
   }  
   void increment() {
