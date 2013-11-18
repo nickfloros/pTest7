@@ -1,20 +1,60 @@
 <polymer-element name="click-counter" attributes="count">
   <template>
     <style>
-      button {
-        font-size: 24pt;
-        margin-bottom: 20px;
-      }
     </style>
     <div>
-      
+    
+      <fieldset>
+        <legend>Position</legend>
+<form class="form-horizontal">
+  <div class="control-group">
+    <label class="control-label" for="inputEmail">Email</label>
+    <div class="controls">
+      <input type="text" id="inputEmail" placeholder="Email">
+    </div>
+  </div>
+  <div class="control-group">
+    <label class="control-label" for="inputPassword">Password</label>
+    <div class="controls">
+      <input type="password" id="inputPassword" placeholder="Password">
+    </div>
+  </div>
+  <div class="control-group">
+    <div class="controls">
+      <label class="checkbox">
+        <input type="checkbox"> Remember me
+      </label>
+      <button type="submit" class="btn">Sign in</button>
+    </div>
+  </div>
+</form>
+        <legend>Address</legend>
+      </fieldset>
+          <label>Position</label>
+          <form class="form-inline" role="form">
+            
+            <div class="form-group">
+              <label class="sr-only" for="exampleInputEmail2">lattitude</label>
+              <input type="text" class="form-control" id="inputLattitude" placeholder="lattitude" value="{{lat}}">
+            </div>
+            <div class="form-group">
+              <label class="sr-only" for="exampleInputPassword2">longitude</label>
+              <input type="text" class="form-control" id="inputLongitude" placeholder="longitude" value="{{lng}}">
+            </div>
+          </form>
+          <textarea rows="3" value={{address}}></textarea>
       <div><p>click on map the get position</p> <p>{{lat}}, {{lng}}</div>
       
       <button on-click="{{increment}}">Click me</button><br>
       <span>(click count: {{count}})</span>
-      
-      <div id="map_canvas"></div>
+      <form role="form">
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+      </form>
     </div>
+    
   </template>
   <script type="application/dart" src="clickcounter.dart"></script>
 </polymer-element>

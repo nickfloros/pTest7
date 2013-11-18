@@ -4,12 +4,16 @@
   <head>
     <meta charset="utf-8">
     <title>Sample app</title>
-    <link rel="stylesheet" href="ptest7.css">
+    <!-- import style -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- import google map api -->
     <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+ 
+    <!-- import components -->
     <link rel="import" href="gmap.html">
     <link rel="import" href="clickcounter.html">
 
-    <!-- import the click-counter -->
+    <!-- dart boot sequence -->
     <script type="application/dart">export 'package:polymer/init.dart';</script>
     <script src="packages/browser/dart.js"></script>
     <script src="packages/browser/interop.js"></script>

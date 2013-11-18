@@ -10,6 +10,13 @@ class ClickCounter extends PolymerElement {
   @published num lat = 0;
   @published num lng = 0;
 
+  @published String address;
+  
+  /**
+   * allow global css style to apply
+   */
+  bool get applyAuthorStyles => true;
+  
   ClickCounter.created() : super.created() {
     _init();
   }
@@ -20,6 +27,9 @@ class ClickCounter extends PolymerElement {
       lat=onData.detail[0];
       lng = onData.detail[1];
       
+    });
+    window.on['mapClickAddress'].listen((CustomEvent onData) {
+      address=onData.detail[0];      
     });
   }  
   void increment() {

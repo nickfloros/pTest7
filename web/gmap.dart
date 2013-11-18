@@ -8,8 +8,14 @@ class MapElement extends PolymerElement {
   GoogleMaps.GMap _map;
 
   GoogleMaps.Geocoder _geocoder;
+
+  /**
+   * allow global css rules to apply 
+   */
+  bool get applyAuthorStyles => true;
   
   MapElement.created() : super.created() {
+    
     print('${window.location.href}');
     final mapOptions = new GoogleMaps.MapOptions()
       ..mapTypeId = GoogleMaps.MapTypeId.ROADMAP
@@ -37,7 +43,7 @@ class MapElement extends PolymerElement {
   void _locationCallback(GoogleMaps.MouseEvent g){
     print('location callback ${g.latLng.lat}, ${g.latLng.lng}');
     
-    var pos = [g.latLng.lat,g.latLng.lng];
+    var pos = [g.latLng.lat,g.latLng.lng,'foo'];
     
     this.fire('mapClick',detail:pos);
     
@@ -53,6 +59,9 @@ class MapElement extends PolymerElement {
     if (status == GoogleMaps.GeocoderStatus.OK) {
       for (var i=0; i<results.length; i++){
         print('${i} - ${results[i].formattedAddress}');
+        var address = [results[i].formattedAddress];
+        if (i==0)
+          this.fire('mapClickAddress', detail: address);
         for (var j=0; j<results[i].addressComponents.length; j++) {
           print(' ${results[i].addressComponents[j].types[0]} - ${results[i].addressComponents[j].longName}');
         }
